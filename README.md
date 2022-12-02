@@ -2,7 +2,7 @@
 # Resumo sobre GIT e comandos importantes
 Um documento com um resumo sobre o GIT e com o principais comandos presentes nessa tecnologia.
 - ### [Principais conceitos](#principais-conceitos-1)
-- ### [Comandos importantes do GIT](#comandos-importantes-1)
+- ### [Comandos importantes](#comandos-importantes-1)
 ---
 # Principais conceitos
 Principais conceitos sobre GIT.
