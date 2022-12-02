@@ -54,9 +54,10 @@ Algumas das características do GIT.
 Principais comandos para se usar no GIT.
 - ### [Comandos básicos](#comandos-básicos-1)
 - ### [Funcionamento do GIT](#funcionamento-do-git-1)
+- ### [Repositórios remotos](#repositórios-remotos-1)
 
 ## Comandos básicos
-
+Comandos de configurações e alguns comandos iniciais.
 - ### `git config`
   Os comandos **`git config --global user.name "Seu Nome"`** e **`git config --global user.email "seu-email@mail.com"`** são usados para configurar seu usuário e seu e-mail no seu computador. São importantes principalmente quando há comunicação com repositórios remotos.
   O comando **`git config --list`** é usado para ver todas as configurações do seu git local.
@@ -103,3 +104,17 @@ Mostrando como o git funciona.
 
  - ### `git clean -f`
    Remove arquivos que foram adicionados mas ainda não foram salvos.
+
+## Repositórios remotos
+Trabalhando com repositórios remotos.
+
+- ### `git clone link_do_repositorio_remoto`
+   Clona o repositório remoto na máquina local.
+
+- ### `git push`
+   Envia as mudanças locais para o servidor.
+
+- ### `git pull`
+   Baixa as mudanças do servidor para a máquina local.
+
+**Atenção!** Na maioria dos casos, se o usuário ainda não estiver autenticado, o serviço responsável pelo repositório remoto pode pedir a verificação, para certificar-se que requisição como **`git clone`**, **`git push`** e **`git pull`** é permitida.
