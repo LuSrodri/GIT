@@ -1,10 +1,10 @@
 ![GIT](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png)
 # Resumo sobre GIT e comandos importantes
 Um documento com um resumo sobre o GIT e com o principais comandos presentes nessa tecnologia.
-- ### [Principais conceitos sobre GIT](#principais-conceitos-sobre-git-1)
-- ### [Comandos importantes do GIT](#comandos-importantes-do-git-1)
+- ### [Principais conceitos](#principais-conceitos-1)
+- ### [Comandos importantes do GIT](#comandos-importantes-1)
 ---
-# Principais conceitos sobre GIT
+# Principais conceitos
 Principais conceitos sobre GIT.
 - ### [O que é GIT?](#o-que-é-git-1)
 - ### [O que é controle de versão?](#o-que-é-controle-de-versão-1)
@@ -50,11 +50,12 @@ Algumas das características do GIT.
     Facilidade para diversos colaboradores realizarem alterações sem a dependência de arquivos.
 
 ---
-# Comandos importantes do GIT
+# Comandos importantes
 Principais comandos para se usar no GIT.
 - ### [Comandos básicos](#comandos-básicos-1)
 - ### [Funcionamento do GIT](#funcionamento-do-git-1)
 - ### [Repositórios remotos](#repositórios-remotos-1)
+- ### [Branches](#branches-1)
 
 ## Comandos básicos
 Comandos de configurações e alguns comandos iniciais.
@@ -118,3 +119,38 @@ Trabalhando com repositórios remotos.
    Baixa as mudanças do servidor para a máquina local.
 
 **Atenção!** Na maioria dos casos, se o usuário ainda não estiver autenticado, o serviço responsável pelo repositório remoto pode pedir a verificação, para certificar-se que requisição como **`git clone`**, **`git push`** e **`git pull`** é permitida.
+
+## Branches
+Branches são ramificações no projeto que permite que funcionalidades sejam desenvolvidas separadamente sem impactar nas funcionalidades estáveis no projeto.
+![funcionanmento do git](/branches.png)
+ - ### `git branch`
+   Lista todas as branches do repositório.
+
+ - ### `git branch nome_da_nova_branch`
+   Cria uma nova branch no repositório.
+
+ - ### `git checkout nome_da_branch`
+   Muda de branch.
+
+ - ### `git checkout -b nome_da_nova_branch`
+   Cria e muda para a nova branch.
+
+ - ### `git push -u origin nome_da_branch_criada_localmente`
+   Envia uma branch criada localmente para o repositório remoto.
+
+ - ### `git pull`
+   Atualiza as branches locais.
+
+ - ### `git branch -d nome_da_branch` ou `git branch -D nome_da_branch`
+   Remove branches locais.
+
+ - ### `git branch --delete origin nome_da_branch`
+   Remove branches remotas.
+
+ - ### `git branch -m nome_atual nome_novo`
+   Renomeia uma branch local.
+
+**Atenção!** Não existe um comando específico para alterar nome de branches remotas.
+
+ - ### `git merge outra_branch`
+   Traz as alterações de outra branch para a branch selecionada.
