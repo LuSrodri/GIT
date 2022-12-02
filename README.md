@@ -51,4 +51,23 @@ Algumas das características do GIT.
 
 ---
 # Comandos importantes do GIT
--To do-
+- ### [Comandos básicos](#comandos-básicos-1)
+Principais comandos para se usar no GIT
+
+## Comandos básicos
+
+- ### `git config`
+  Os comandos **`git config --global user.name "Seu Nome"`** e **`git config --global user.email "seu-email@mail.com"`** são usados para configurar seu usuário e seu e-mail no seu computador. São importantes principalmente quando há comunicação com repositórios remotos.
+  O comando **`git config --list`** é usado para ver todas as configurações do seu git local.
+
+ - ### `git init`
+   Usado para inicializar um repositório.
+
+ - ### `git status`
+   Mostra o estado dos arquivos.
+
+ - ### `git add nome_do_arquivo`
+   Torna-se um arquivo rastreável, ou seja, adiciona as alterações ao **staging area** para serem salvas. Pode ser utilizado o comando **`git add .`** para adicionar todas alterações.
+
+ - ### `git commit -m "uma mensagem"`
+   Salva as alterações.
