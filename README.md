@@ -4,7 +4,7 @@ Um documento com um resumo sobre o GIT e com o principais comandos presentes nes
 - ### [Principais conceitos](#principais-conceitos-1)
 - ### [Comandos importantes do GIT](#comandos-importantes-1)
 ---
-# Principais conceitos
+# -> Principais conceitos
 Principais conceitos sobre GIT.
 - ### [O que é GIT?](#o-que-é-git-1)
 - ### [O que é controle de versão?](#o-que-é-controle-de-versão-1)
@@ -13,10 +13,10 @@ Principais conceitos sobre GIT.
 - ### [Características do GIT](#características-do-git-1)
 ## O que é GIT?
 GIT é uma ferramenta de controle de versão.
-
+##### [Voltar aos Principais conceitos](#principais-conceitos-1)
 ## O que é controle de versão?
 Software que tem a função de fazer o gerenciamento de versões de um documento qualquer. Muito usado em empresas e projetos de desenvolvimento de softwares.
-
+##### [Voltar aos Principais conceitos](#principais-conceitos-1)
 ## Funcionalidades
 Algumas das importantes funcionalidades de um software de controle de versão.
 
@@ -28,7 +28,7 @@ Algumas das importantes funcionalidades de um software de controle de versão.
     Possibilidade de criar várias versões versões a partir de um ponto. E a possiblidade de junção das funcionalidades após finalizadas;
  - #### Rastreabilidade:
     Identificar em que ponto a mudança foi feita e identificar responsável pela mudança.
-
+##### [Voltar aos Principais conceitos](#principais-conceitos-1)
 ## Tipos de controles de versões
 Dois principais tipos de controles de versões.
 
@@ -36,7 +36,7 @@ Dois principais tipos de controles de versões.
     Servidor que possui todo o histórico. Padrão usado durante muitos anos;
  - #### Distribuído:
     Cada computador possui uma cópia do repositório. **GIT** é distribuído.
-
+##### [Voltar aos Principais conceitos](#principais-conceitos-1)
 ## Características do GIT
 Algumas das características do GIT.
 
@@ -48,7 +48,9 @@ Algumas das características do GIT.
     Uma vez um arquivo adicionado, todo seu histórico é mantido;
  - #### Autonomia:
     Facilidade para diversos colaboradores realizarem alterações sem a dependência de arquivos.
-
+    
+##### [Voltar aos Principais conceitos](#principais-conceitos-1)
+##### [Voltar ao topo](#resumo-sobre-git-e-comandos-importantes)
 ---
 # Comandos importantes
 Principais comandos para se usar no GIT.
@@ -56,7 +58,7 @@ Principais comandos para se usar no GIT.
 - ### [Funcionamento do GIT](#funcionamento-do-git-1)
 - ### [Repositórios remotos](#repositórios-remotos-1)
 - ### [Branches](#branches-1)
-
+##### [Voltar ao topo](#resumo-sobre-git-e-comandos-importantes)
 ## Comandos básicos
 Comandos de configurações e alguns comandos iniciais.
 - ### `git config`
@@ -74,7 +76,7 @@ Comandos de configurações e alguns comandos iniciais.
 
  - ### `git commit -m "uma mensagem"`
    Salva as alterações.
-
+##### [Voltar aos Comandos importantes](#comandos-importantes-1)
 ## Funcionamento do GIT
 Mostrando como o git funciona.
 ![funcionanmento do git](/funcionamento_do_git.png)
@@ -105,6 +107,7 @@ Mostrando como o git funciona.
 
  - ### `git clean -f`
    Remove arquivos que foram adicionados mas ainda não foram salvos.
+##### [Voltar aos Comandos importantes](#comandos-importantes-1)
 
 ## Repositórios remotos
 Trabalhando com repositórios remotos.
@@ -119,7 +122,7 @@ Trabalhando com repositórios remotos.
    Baixa as mudanças do servidor para a máquina local.
 
 **Atenção!** Na maioria dos casos, se o usuário ainda não estiver autenticado, o serviço responsável pelo repositório remoto pode pedir a verificação, para certificar-se que requisição como **`git clone`**, **`git push`** e **`git pull`** é permitida.
-
+##### [Voltar aos Comandos importantes](#comandos-importantes-1)
 ## Branches
 Branches são ramificações no projeto que permite que funcionalidades sejam desenvolvidas separadamente sem impactar nas funcionalidades estáveis no projeto.
 ![funcionanmento do git](/branches.png)
@@ -154,3 +157,6 @@ Branches são ramificações no projeto que permite que funcionalidades sejam de
 
  - ### `git merge outra_branch`
    Traz as alterações de outra branch para a branch selecionada.
+
+##### [Voltar aos Comandos importantes](#comandos-importantes-1)
+##### [Voltar ao topo](#resumo-sobre-git-e-comandos-importantes)
