@@ -51,8 +51,9 @@ Algumas das características do GIT.
 
 ---
 # Comandos importantes do GIT
+Principais comandos para se usar no GIT.
 - ### [Comandos básicos](#comandos-básicos-1)
-Principais comandos para se usar no GIT
+- ### [Funcionamento do GIT](#funcionamento-do-git-1)
 
 ## Comandos básicos
 
@@ -64,10 +65,41 @@ Principais comandos para se usar no GIT
    Usado para inicializar um repositório.
 
  - ### `git status`
-   Mostra o estado dos arquivos.
+   Mostra o estado dos arquivos. Ver mais em [Funcionamento do GIT](#funcionamento-do-git-1).
 
  - ### `git add nome_do_arquivo`
    Torna-se um arquivo rastreável, ou seja, adiciona as alterações ao **staging area** para serem salvas. Pode ser utilizado o comando **`git add .`** para adicionar todas alterações.
 
  - ### `git commit -m "uma mensagem"`
    Salva as alterações.
+
+## Funcionamento do GIT
+Mostrando como o git funciona.
+![funcionanmento do git](/funcionamento_do_git.png)
+
+ - ### `git diff`
+   Mostra as alterações ou diferenças da working directory.
+
+ - ### `git diff --cached` ou `git diff --staged`
+   Mostra as alterações ou diferenças da staging area.
+
+ - ### `git log`
+   Histórico de alterações. São listadas da mais recentes para a mais antigas.
+
+ - ### `git log --oneline` 
+   Histórico de alterações. São listadas em linhas únicas da mais recentes para a mais antigas.
+
+ - ### `git checkout {código do commit}` 
+   Usa commits anteriores. O código do commit pode ser obtido com o **`git log`**.
+
+ - ### `git checkout main` 
+   Usa a branch principal. Usado também para voltar para o último commit. Em alguns caso, em que a branch principal é a master, utiliza-se o comando **`git checkout master`**.
+
+ - ### `git checkout nome_do_arquivo`
+   Desfaz as alterações de um arquivo.
+
+ - ### `git reset --hard`
+   Defaz todas as alterações. Volta para o estado inicial do último commit.
+
+ - ### `git clean -f`
+   Remove arquivos que foram adicionados mas ainda não foram salvos.
