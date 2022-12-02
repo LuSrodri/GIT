@@ -4,7 +4,7 @@ Um documento com um resumo sobre o GIT e com o principais comandos presentes nes
 - ### [Principais conceitos](#principais-conceitos-1)
 - ### [Comandos importantes do GIT](#comandos-importantes-1)
 ---
-# -> Principais conceitos
+# Principais conceitos
 Principais conceitos sobre GIT.
 - ### [O que é GIT?](#o-que-é-git-1)
 - ### [O que é controle de versão?](#o-que-é-controle-de-versão-1)
