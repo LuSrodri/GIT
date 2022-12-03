@@ -59,6 +59,7 @@ Principais comandos para se usar no GIT.
 - ### [Repositórios remotos](#repositórios-remotos-1)
 - ### [Branches](#branches-1)
 - ### [Tags](#tags-1)
+- ### [Stashes](#stashes-1)
 ##### [Voltar ao topo](#resumo-sobre-git-e-comandos-importantes)
 ## Comandos básicos
 Comandos de configurações e alguns comandos iniciais.
