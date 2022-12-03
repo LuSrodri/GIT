@@ -122,7 +122,7 @@ Trabalhando com repositórios remotos.
 - ### `git pull`
    Baixa as mudanças do servidor para a máquina local.
 
-**Atenção!** Na maioria dos casos, se o usuário ainda não estiver autenticado, o serviço responsável pelo repositório remoto pode pedir a verificação, para certificar-se que requisição como **`git clone`**, **`git push`** e **`git pull`** é permitida.
+**Atenção!** Na maioria dos casos, se o usuário ainda não estiver autenticado, o serviço responsável pelo repositório remoto pode pedir a verificação, para certificar-se que as requisições como **`git clone`**, **`git push`** e **`git pull`** é permitida.
 ##### [Voltar aos Comandos importantes](#comandos-importantes-1)
 ## Branches
 Branches são ramificações no projeto que permite que funcionalidades sejam desenvolvidas separadamente sem impactar nas funcionalidades estáveis no projeto.
@@ -183,5 +183,28 @@ Usando tags.
 
  - ### `git tag -a {nome da tag} {código de um commit}"`
    Cria uma tag em um commit antigo.
+##### [Voltar aos Comandos importantes](#comandos-importantes-1)
+
+## Stashes
+Usando stashes.
+
+ - ### `git stash`
+   Salva as mudanças para posterior ação.
+
+- ### `git stash list`
+   Lista as mudanças salvas.
+
+- ### `git stash "mensagem"`
+   Salva as mudanças com uma mensagem personalizada.
+
+- ### `git stash apply`
+   Usa a última mudança salva.
+
+- ### `git stash pop`
+   Usa e exclui a última mudança salva.
+
+- ### `git stash drop stash@{1}`
+   Usa e exclui uma mudança específica.
+
 ##### [Voltar aos Comandos importantes](#comandos-importantes-1)
 ##### [Voltar ao topo](#resumo-sobre-git-e-comandos-importantes)
