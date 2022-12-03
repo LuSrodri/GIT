@@ -58,6 +58,7 @@ Principais comandos para se usar no GIT.
 - ### [Funcionamento do GIT](#funcionamento-do-git-1)
 - ### [Repositórios remotos](#repositórios-remotos-1)
 - ### [Branches](#branches-1)
+- ### [Tags](#tags-1)
 ##### [Voltar ao topo](#resumo-sobre-git-e-comandos-importantes)
 ## Comandos básicos
 Comandos de configurações e alguns comandos iniciais.
@@ -158,5 +159,29 @@ Branches são ramificações no projeto que permite que funcionalidades sejam de
  - ### `git merge outra_branch`
    Traz as alterações de outra branch para a branch selecionada.
 
+##### [Voltar aos Comandos importantes](#comandos-importantes-1)
+
+## Tags
+Usando tags.
+ - ### `git tag -a {nome da tag} -m "Título da tag"`
+   Cria uma tag.
+
+ - ### `git tag"`
+   Lista todas as tags.
+
+ - ### `git push origin {nome da tag}"`
+   Envia Tag para o repositório remoto.
+
+ - ### `git checkout {nome da tag}"`
+   Usa uma tag.
+
+ - ### `git tag -d {nome da tag}"`
+   Remove uma tag local.
+
+ - ### `git push --delete origin {nome da tag}"`
+   Remove uma tag remota.
+
+ - ### `git tag -a {nome da tag} {código de um commit}"`
+   Cria uma tag em um commit antigo.
 ##### [Voltar aos Comandos importantes](#comandos-importantes-1)
 ##### [Voltar ao topo](#resumo-sobre-git-e-comandos-importantes)
