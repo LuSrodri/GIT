@@ -5,6 +5,7 @@ Um documento com um resumo sobre o GIT e com o principais comandos presentes nes
 - ### [Comandos importantes](#comandos-importantes-1)
 - ### [Erro ao trocar de branch](#erro-ao-trocar-de-branch-1)
 - ### [Outros comandos](#outros-comandos-1)
+- ### [Infos e links](#infos-e-links-1)
 ---
 # Principais conceitos
 Principais conceitos sobre GIT.
@@ -263,3 +264,17 @@ Outros comandos que podem ser úteis.
 
 ##### [Voltar ao topo](#resumo-sobre-git-e-comandos-importantes)
 
+---
+
+# Infos e links
+
+Esse documento foi criado com o intuito de servir como um guia rápido para os principais conceitos e comandos do GIT. Se faz sentido para você e te ajudou, considere compartilhar e favoritar.😊
+
+Para mais aprofundamento acerca do tema, recomendo acessar o acervo de artigo do website oficial do GIT: [GIT Book](https://git-scm.com/book/pt-br/v2).
+
+Para instalar o GIT na sua máquina veja o link: [GIT Downloads](https://git-scm.com/downloads).
+
+---
+
+# Obrigado e até mais! 👋
+#### Lucas Santos Rodrigues. Desenvolvedor WEB.
