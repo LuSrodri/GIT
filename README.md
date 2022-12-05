@@ -3,6 +3,7 @@
 Um documento com um resumo sobre o GIT e com o principais comandos presentes nessa tecnologia.
 - ### [Principais conceitos](#principais-conceitos-1)
 - ### [Comandos importantes](#comandos-importantes-1)
+- ### [Erro ao trocar de branch](#erro-ao-trocar-de-branch-1)
 ---
 # Principais conceitos
 Principais conceitos sobre GIT.
@@ -167,22 +168,22 @@ Usando tags.
  - ### `git tag -a {nome da tag} -m "Título da tag"`
    Cria uma tag.
 
- - ### `git tag"`
+ - ### `git tag`
    Lista todas as tags.
 
- - ### `git push origin {nome da tag}"`
+ - ### `git push origin {nome da tag}`
    Envia Tag para o repositório remoto.
 
- - ### `git checkout {nome da tag}"`
+ - ### `git checkout {nome da tag}`
    Usa uma tag.
 
- - ### `git tag -d {nome da tag}"`
+ - ### `git tag -d {nome da tag}`
    Remove uma tag local.
 
- - ### `git push --delete origin {nome da tag}"`
+ - ### `git push --delete origin {nome da tag}`
    Remove uma tag remota.
 
- - ### `git tag -a {nome da tag} {código de um commit}"`
+ - ### `git tag -a {nome da tag} {código de um commit}`
    Cria uma tag em um commit antigo.
 ##### [Voltar aos Comandos importantes](#comandos-importantes-1)
 
@@ -209,3 +210,18 @@ Usando stashes.
 
 ##### [Voltar aos Comandos importantes](#comandos-importantes-1)
 ##### [Voltar ao topo](#resumo-sobre-git-e-comandos-importantes)
+
+---
+
+# Erro ao trocar de branch
+
+Erro ao trocar de branch quando houver uma alteração não versionada.
+Quando tentamos mudar de branch com o comando **`git checkout {nome da branch}`** estando em uma branch com alterações não versionadas, o GIT acusará um erro, pois isso irá sobreescrever as mudanças.
+Para resolver esse problema, podemos utilizar duas opções:
+
+ - **1ª opção:** Salvar as mudanças com os comandos **`git add`** e **`git commit`**, ou;
+
+ - **2ª opção:** Desfazer as mudanças com o comando **`git reset --hard`**.
+
+##### [Voltar ao topo](#resumo-sobre-git-e-comandos-importantes)
+
