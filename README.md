@@ -270,7 +270,7 @@ Outros comandos que podem ser úteis.
 
 Esse documento foi criado com o intuito de servir como um guia rápido para os principais conceitos e comandos do GIT. Se faz sentido para você e te ajudou, considere compartilhar e favoritar.😊
 
-Para mais aprofundamento acerca do tema, recomendo acessar o acervo de artigo do website oficial do GIT: [GIT Book](https://git-scm.com/book/pt-br/v2).
+Para mais aprofundamento acerca do tema, recomendo acessar o acervo de artigos do website oficial do GIT: [GIT Book](https://git-scm.com/book/pt-br/v2).
 
 Para instalar o GIT na sua máquina veja o link: [GIT Downloads](https://git-scm.com/downloads).
 
