@@ -4,6 +4,7 @@ Um documento com um resumo sobre o GIT e com o principais comandos presentes nes
 - ### [Principais conceitos](#principais-conceitos-1)
 - ### [Comandos importantes](#comandos-importantes-1)
 - ### [Erro ao trocar de branch](#erro-ao-trocar-de-branch-1)
+- ### [Outros comandos](#outros-comandos-1)
 ---
 # Principais conceitos
 Principais conceitos sobre GIT.
@@ -222,6 +223,43 @@ Para resolver esse problema, podemos utilizar duas opções:
  - **1ª opção:** Salvar as mudanças com os comandos **`git add`** e **`git commit`**, ou;
 
  - **2ª opção:** Desfazer as mudanças com o comando **`git reset --hard`**.
+
+##### [Voltar ao topo](#resumo-sobre-git-e-comandos-importantes)
+
+---
+
+# Outros comandos
+
+Outros comandos que podem ser úteis.
+
+ - ### `git commit -a -m "mensagem do commit"`
+    Mesmo que usar os comandos **`git add .`** e **`git commit -m "mensagem do commit"`**
+
+ - ### `git reset --hard HEAD~1`
+   Defaz um commit local, sendo o número final a quantidade de commits para serem desfeitos.
+
+**Atenção!** Não tem como defazer commits do repositório remoto.
+
+ - ### `git commit --amend`
+   Adiciona mudanças ao um commit que já realizado localmente.
+
+ - ### `git fetch`
+   Traz as alterações do repositório remoto porém não aplica. Pode ser usado para ver as alterações feitas no repositório remoto desde do último uso do comando **`git pull`**.
+
+ - ### `git rebase {nome de um branch}`
+   Aplica os commits de uma branch em outra branch, removendo bifurcações.
+
+ - ### `git config --global alias.s status`
+   Cria um atalho **`git s`** para o comando **`git status`**. O comando _alias_ é usado para criar atalhos aos comandos existentes no GIT.
+
+ - ### `git config --global --unset alias.s`
+   Remove o atalho **`git s`**.
+
+ - ### `git remote -V`
+   Mostra informações sobre o repositório remoto.
+
+ - ### `git branch | grep R1`
+   O comando **`grep`** aplica um filtro, nesse caso, esse comando traz como resultado todas as branches com o nome "R1".
 
 ##### [Voltar ao topo](#resumo-sobre-git-e-comandos-importantes)
 
